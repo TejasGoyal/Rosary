@@ -1,0 +1,38 @@
+.hello
+{
+    background-color: orange;
+    height: 20px;
+    width: 20px;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    border: 11px solid yellow;
+    height: 330px;
+    width: 410px;
+    margin-left: 20px;
+}
+
+.comp{
+    background: url(108.png);
+    background-size: 410px 330px;
+    z-index: 1;
+}
+
+.grid div{
+    height: 30px;
+    width: 30px;
+    padding: 1px;
+    border: 1px solid;
+}
+
+#counter{
+    margin-left: 14%;
+    margin-top: 20px;
+}
+
+#limit{
+    width: 50px;
+    margin: 5px;
+}
